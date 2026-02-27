@@ -117,7 +117,7 @@ function TryoutContent() {
               <span className="text-sm uppercase tracking-wide text-charcoal/50">
                 Duration
               </span>
-              <span>~90 minutes</span>
+              <span>2 hours</span>
             </div>
             <hr className="border-charcoal/10" />
             <div className="flex justify-between">

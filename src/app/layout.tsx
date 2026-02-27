@@ -11,13 +11,16 @@ function Header() {
   return (
     <header className="border-b border-cream-dark">
       <div className="mx-auto max-w-6xl px-4 md:px-6 py-4 md:py-5 flex items-center justify-between">
-        <a href="/" className="font-heading text-base md:text-xl tracking-wide text-charcoal shrink-0">
-          <span className="font-bold">PBBC</span>
+        <a href="/" className="flex items-center gap-3 font-heading text-base md:text-xl tracking-wide text-charcoal shrink-0">
+          <img src="/logo.png" alt="Palm Beach Basketball Club" className="h-10 md:h-12 w-auto" />
+          <span className="md:hidden">
+            <span className="font-bold">PB</span>
+            <span className="font-normal text-red"> BASKETBALL CLUB</span>
+          </span>
           <span className="hidden md:inline">
-            {" "}<span className="font-bold">PALM BEACH</span>{" "}
+            <span className="font-bold">PALM BEACH</span>{" "}
             <span className="font-normal text-red">BASKETBALL CLUB</span>
           </span>
-          <span className="md:hidden font-normal text-red"> CLUB</span>
         </a>
         <nav className="flex items-center gap-4 md:gap-8">
           <a
