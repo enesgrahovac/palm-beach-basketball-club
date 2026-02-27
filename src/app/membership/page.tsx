@@ -49,7 +49,7 @@ export default function Membership() {
             Monthly dues &middot; Cancel anytime
           </p>
           <p className="text-4xl font-heading font-bold text-charcoal mb-8">
-            $50<span className="text-lg font-normal text-charcoal/50">/mo</span>
+            $120<span className="text-lg font-normal text-charcoal/50">/mo</span>
           </p>
           <ul className="text-left text-charcoal/70 space-y-3 mb-10 max-w-sm mx-auto">
             {[

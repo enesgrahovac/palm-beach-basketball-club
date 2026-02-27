@@ -76,7 +76,7 @@ export default function Apply() {
                 name="firstName"
                 required
                 className={inputClasses}
-                placeholder="John"
+                placeholder="LeBron"
               />
             </div>
             <div>
@@ -89,7 +89,7 @@ export default function Apply() {
                 name="lastName"
                 required
                 className={inputClasses}
-                placeholder="Doe"
+                placeholder="James"
               />
             </div>
           </div>

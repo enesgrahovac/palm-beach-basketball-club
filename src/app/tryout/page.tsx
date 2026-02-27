@@ -155,7 +155,7 @@ function TryoutContent() {
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               className={`${inputClasses} font-heading text-lg`}
-              placeholder="John Michael Doe"
+              placeholder="LeBron Raymone James"
             />
           </div>
 
@@ -172,7 +172,7 @@ function TryoutContent() {
                 value={emergencyName}
                 onChange={(e) => setEmergencyName(e.target.value)}
                 className={inputClasses}
-                placeholder="Jane Doe"
+                placeholder="Savannah James"
               />
             </div>
             <div>
