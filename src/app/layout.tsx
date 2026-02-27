@@ -11,8 +11,8 @@ function Header() {
   return (
     <header className="border-b border-cream-dark">
       <div className="mx-auto max-w-6xl px-4 md:px-6 py-4 md:py-5 flex items-center justify-between">
-        <a href="/" className="flex items-center gap-3 font-heading text-base md:text-xl tracking-wide text-charcoal shrink-0">
-          <img src="/logo.png" alt="Palm Beach Basketball Club" className="h-10 md:h-12 w-auto" />
+        <a href="/" className="flex items-center gap-1.5 font-heading text-base md:text-xl tracking-wide text-charcoal shrink-0">
+          <img src="/logo.png" alt="Palm Beach Basketball Club" className="h-16 md:h-20 w-auto" />
           <span className="md:hidden">
             <span className="font-bold">PB</span>
             <span className="font-normal text-red"> BASKETBALL CLUB</span>
